@@ -2,6 +2,8 @@
     box-sizing:border-box;
 }
 
+
+
 nav ul {
     background-color:#404040 ;
     width: 100%;
@@ -14,7 +16,10 @@ nav ul {
 nav ul li {
 
     display: inline-block;
+    padding : 27px;
+    padding-left: 30px;
     position: relative;
+    bottom: 30px;
 
 
 }
@@ -25,10 +30,41 @@ nav ul li a {
     color: white;
 }
 
-.li {
+
+div {
+
+    width: 100;
     text-align: center;
-    padding: 27px;
-    bottom : 27px;
+    padding : 15px;
 
 }
 
+div img {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+section {
+    width: 100%;
+    text-align: center;
+    padding : 20px;
+    position: relative;
+}
+section img {
+   
+}
+
+section article {
+    display: inline-block;
+    position: relative;
+    text-align: justify;
+}
+
+footer {
+
+    background-color: #404040;
+    height: 40px;
+    position: relative;
+    bottom: 0px;
+
+}
