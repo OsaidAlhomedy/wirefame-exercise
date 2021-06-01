@@ -2,7 +2,9 @@
     box-sizing:border-box;
 }
 
-
+nav {
+    padding-bottom: 15px;
+}
 
 nav ul {
     background-color:#404040 ;
@@ -28,6 +30,7 @@ nav ul li a {
 
     text-decoration: none;
     color: white;
+    font-weight: bold;
 }
 
 
@@ -50,15 +53,14 @@ section {
     margin-left : 471.5px;
     padding-top :15px;
 }
-section img {
-   
-}
 
 section article {
     display: inline-block;
     position: relative;
     text-align: justify;
-    font-size: 30px;
+    font-size: 18px;
+    overflow: auto;
+    height: 320px;
 }
 
 footer {
@@ -68,6 +70,7 @@ footer {
     margin-top: 20px;
     position: relative;
     bottom: 0px;
+    clear:both ;
 
 }
 
@@ -81,11 +84,18 @@ section div {
 }
 
 section div button{
-    float: right;
+    float: left;
     display: block;
     font-size: 20px;
     padding:10px;
-    width : 450px;
+    width : 300px;
     margin-top: 25px;
+    border-radius: 8px;
     
+}
+
+div article h3 {
+    font-size: 30px;
+    font-weight:bold ;
+    margin-bottom: 10px;
 }
