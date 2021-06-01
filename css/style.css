@@ -1,0 +1,34 @@
+* {
+    box-sizing:border-box;
+}
+
+nav ul {
+    background-color:#404040 ;
+    width: 100%;
+    padding: 15px;
+    position: relative;
+    height: 100px;
+    text-align: center;
+}
+
+nav ul li {
+
+    display: inline-block;
+    position: relative;
+
+
+}
+
+nav ul li a {
+
+    text-decoration: none;
+    color: white;
+}
+
+.li {
+    text-align: center;
+    padding: 27px;
+    bottom : 27px;
+
+}
+
