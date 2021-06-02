@@ -36,7 +36,7 @@ nav ul li a {
 
 div {
 
-    width: 100;
+    width: 100%;
     text-align: center;
     padding : 15px;
 
@@ -48,10 +48,10 @@ div img {
 }
 
 section {
-    width: 960px;
-    position: relative;
-    margin-left : 471.5px;
+    width: 100%;
     padding-top :15px;
+    text-align: center;
+    position: relative;
 }
 
 section article {
@@ -59,7 +59,7 @@ section article {
     position: relative;
     text-align: justify;
     font-size: 18px;
-    overflow: auto;
+    overflow: scroll;
     height: 320px;
 }
 
@@ -75,10 +75,12 @@ footer {
 }
 
 section div {
-
-    float: right;
+    display: inline-block;
     height : 375px;
-    width:50%;
+    width:27%;
+    padding-left: 50px;
+    position: relative;
+    bottom: 100px;
     
 
 }
